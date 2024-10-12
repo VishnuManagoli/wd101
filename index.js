@@ -43,12 +43,12 @@ function displayInfo(name, email, dob, password, terms) {
   row.innerHTML = `
         <td>${name}</td>
         <td>${email}</td>
-        <td>${password}</td> <!-- Masking the password -->
+        <td>${password}</td> 
         <td>${dob}</td>
         <td>${
           terms ? "True" : "False"
-        }</td> <!-- Display true/false for accepted terms -->
+        }</td>
     `;
 
-  tableBody.appendChild(row); // Add the new row to the table
+  tableBody.appendChild(row);
 }
